@@ -1,3 +1,7 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
 .Titulo{
     width: 100%;
     height: 100px;
@@ -39,6 +43,7 @@
         }
     .queimadas{
         width: 100%;
+        height: auto;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -48,6 +53,7 @@
         }
             .texto{
                 width: 50%;
+                height: 100%;
                 padding: 30px;
                 background-color: #454545;
                 color: white;
@@ -63,8 +69,79 @@
 
 .sobreNos{
     width: 100%;
+    height: 800px;
+    padding: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-
+    background-color: #808080;
+    margin-top: 30px;
 }
+    .sobre{
+        width: 30%;
+        height: 73%;
+        background-color:#D9D9D9;
+        padding: 7px;
+        padding-bottom: 25px;
+    }
+        .sobre p{
+            width: 60%;
+            font-size: 26px;
+        }
+    .informaSo{
+        width: 30%;
+        height: 73%;
+    }
+        .porque{
+            width: 90%;
+            height: 35%;
+            background-color: #D9D9D9;
+            padding: 8px;
+        }
+            .porque p{
+                font-size: 26px;
+            }
+        
+        
+        .Principios{
+            height: 50%;
+            width:90%;
+            margin-top: 25px;
+            background-color: #D9D9D9;
+        }
+            .geral{
+                width: 100%;
+                height: 33%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .circulo{
+                    height: 35px;
+                    width: 35px;
+                    border-radius: 100%;
+                    background-color: red;
+                }
+
+.tecnologiasUsadas{
+    text-align: center;
+    margin: 80px 0px 0px 0px;
+}
+        .titulotec{
+            font-size: 50px;
+        }
+        .tec{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+            .imagemtec{
+                width: 700px;
+                border: solid black 5px;
+            }
+            .tectext{
+                font-size: 35px;
+                width: 40%;
+            }
