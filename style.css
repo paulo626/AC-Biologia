@@ -16,9 +16,23 @@ body{
         border: solid black 3px;
         background-color:#7C7C7C;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
     }
+        .alinhar{
+            width: 55%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .Linkengels{
+            font-size: 25px;
+            color: blue;
+            text-decoration: none;
+            
+        }
         .titulas a{
             margin: 0;
             color: white;
